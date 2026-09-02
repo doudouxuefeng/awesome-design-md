@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solace — 慢火烘焙的慰藉</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,700;1,9..144,300;1,9..144,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 噪点纹理叠加层 -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- 顶部公告条 -->
+  <div class="announce">
+    <span>本季限定 · 埃塞俄比亚耶加雪菲 · 水洗处理 · 现已开售</span>
+  </div>
+
+  <!-- 导航 -->
+  <header class="nav">
+    <a href="#" class="logo">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">Solace</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#beans">咖啡豆</a>
+      <a href="#story">故事</a>
+      <a href="#craft">工艺</a>
+      <a href="#subscribe">订阅</a>
+    </nav>
+    <a href="#subscribe" class="nav-cta">购买 <span class="arrow">→</span></a>
+  </header>
+
+  <!-- Hero 区 -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-meta">
+        <span class="eyebrow">第 №014 期烘焙日志</span>
+        <span class="eyebrow-line"></span>
+      </div>
+      <h1 class="hero-title">
+        <span class="line">慢火，</span>
+        <span class="line"><em>是给豆子</em></span>
+        <span class="line">写的一封信。</span>
+      </h1>
+      <div class="hero-side">
+        <p class="hero-lede">
+          Solace 是一家只做小批次的手工烘焙工坊。每一锅豆子，都在 14 分钟的曲线上被反复试味、停顿、再继续——直到它在杯里说出想说的话。
+        </p>
+        <div class="hero-actions">
+          <a href="#beans" class="btn-primary">看本季豆单</a>
+          <a href="#craft" class="btn-ghost">了解烘焙曲线</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <div class="hero-stamp">
+          <span class="stamp-num">14<span class="unit">′</span></span>
+          <span class="stamp-label">烘焙分钟</span>
+        </div>
+        <div class="hero-ring"></div>
+        <div class="hero-ring hero-ring--2"></div>
+      </figure>
+    </div>
+    <div class="hero-foot">
+      <span class="scroll-cue">向下滚动</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- 本季豆单 -->
+  <section class="beans" id="beans">
+    <header class="section-head">
+      <span class="section-no">01</span>
+      <h2 class="section-title">本季豆单</h2>
+      <p class="section-sub">三款在文火里慢慢成型的风味。</p>
+    </header>
+
+    <div class="bean-grid">
+      <article class="bean">
+        <div class="bean-tag">浅烘</div>
+        <h3 class="bean-name">耶加雪菲 · 科契尔</h3>
+        <p class="bean-origin">埃塞俄比亚 · 西达摩 · 1850m</p>
+        <ul class="bean-notes">
+          <li>佛手柑</li>
+          <li>白茶</li>
+          <li>蜂蜜</li>
+        </ul>
+        <div class="bean-foot">
+          <span class="price">¥128 <span class="unit">/ 200g</span></span>
+          <a href="#subscribe" class="bean-buy">选购 →</a>
+        </div>
+      </article>
+
+      <article class="bean bean--feature">
+        <div class="bean-tag bean-tag--accent">本季之选</div>
+        <h3 class="bean-name">哥伦比亚 · 慧兰</h3>
+        <p class="bean-origin">哥伦比亚 · 慧兰省 · 1700m</p>
+        <ul class="bean-notes">
+          <li>焦糖布丁</li>
+          <li>烤苹果</li>
+          <li>可可</li>
+        </ul>
+        <div class="bean-foot">
+          <span class="price">¥118 <span class="unit">/ 200g</span></span>
+          <a href="#subscribe" class="bean-buy">选购 →</a>
+        </div>
+      </article>
+
+      <article class="bean">
+        <div class="bean-tag">深烘</div>
+        <h3 class="bean-name">苏门答腊 · 曼特宁</h3>
+        <p class="bean-origin">印度尼西亚 · 苏门答腊 · 1300m</p>
+        <ul class="bean-notes">
+          <li>雪松木</li>
+          <li>黑巧</li>
+          <li>土壤</li>
+        </ul>
+        <div class="bean-foot">
+          <span class="price">¥108 <span class="unit">/ 200g</span></span>
+          <a href="#subscribe" class="bean-buy">选购 →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 故事 -->
+  <section class="story" id="story">
+    <div class="story-grid">
+      <div class="story-image">
+        <div class="story-frame">
+          <span class="story-cap">2024 · 工坊一角</span>
+        </div>
+      </div>
+      <div class="story-text">
+        <span class="section-no">02</span>
+        <h2 class="section-title section-title--left">从一口锅，开始的偏执。</h2>
+        <p>
+          2019 年的冬天，我们在一间没有窗户的地下室里，用一把手网和一台二手烤箱，烤坏了 47 锅豆子。第 48 锅，是第一次有人喝完之后沉默了很久。
+        </p>
+        <p>
+          我们没有因此变得更聪明，只是更慢了。慢到愿意为 10 秒的停顿，整锅倒掉重来。慢到相信，一杯咖啡的好坏，不在味蕾，在耐心。
+        </p>
+        <div class="story-sig">
+          <span class="sig-name">— 林 & 周</span>
+          <span class="sig-role">烘焙师 / 创始人</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工艺 -->
+  <section class="craft" id="craft">
+    <header class="section-head section-head--center">
+      <span class="section-no">03</span>
+      <h2 class="section-title">烘焙曲线</h2>
+      <p class="section-sub">一锅豆子的 14 分钟，分成四个呼吸。</p>
+    </header>
+
+    <div class="curve">
+      <svg class="curve-svg" viewBox="0 0 800 260" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="curveFill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#C8643C" stop-opacity="0.25" />
+            <stop offset="100%" stop-color="#C8643C" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <path class="curve-area" d="M0,220 C120,210 180,80 320,70 C440,62 520,150 640,160 C720,166 760,168 800,170 L800,260 L0,260 Z" fill="url(#curveFill)" />
+        <path class="curve-line" d="M0,220 C120,210 180,80 320,70 C440,62 520,150 640,160 C720,166 760,168 800,170" fill="none" stroke="#2B1810" stroke-width="2" />
+        <circle class="curve-dot curve-dot--1" cx="80" cy="216" r="5" />
+        <circle class="curve-dot curve-dot--2" cx="320" cy="70" r="5" />
+        <circle class="curve-dot curve-dot--3" cx="520" cy="150" r="5" />
+        <circle class="curve-dot curve-dot--4" cx="760" cy="168" r="5" />
+      </svg>
+      <div class="curve-stages">
+        <div class="stage">
+          <span class="stage-time">00′</span>
+          <span class="stage-name">入豆</span>
+        </div>
+        <div class="stage">
+          <span class="stage-time">05′</span>
+          <span class="stage-name">转黄</span>
+        </div>
+        <div class="stage">
+          <span class="stage-time">09′</span>
+          <span class="stage-name">一爆</span>
+        </div>
+        <div class="stage">
+          <span class="stage-time">14′</span>
+          <span class="stage-name">出锅</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 订阅 -->
+  <section class="subscribe" id="subscribe">
+    <div class="subscribe-card">
+      <span class="eyebrow eyebrow--light">每月一寄</span>
+      <h2 class="subscribe-title">让慰藉，准时到家。</h2>
+      <p class="subscribe-sub">每月一包当季精选，附一封手写烘焙笔记。可在任意月份暂停。</p>
+
+      <form class="plan" onsubmit="return false;">
+        <label class="plan-opt">
+          <input type="radio" name="plan" checked />
+          <span class="plan-box">
+            <span class="plan-name">单月装</span>
+            <span class="plan-price">¥118<span class="plan-unit">/月</span></span>
+          </span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan" />
+          <span class="plan-box">
+            <span class="plan-name">双月装</span>
+            <span class="plan-price">¥218<span class="plan-unit">/双月</span></span>
+            <span class="plan-save">省 ¥18</span>
+          </span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan" />
+          <span class="plan-box">
+            <span class="plan-name">年度装</span>
+            <span class="plan-price">¥1,288<span class="plan-unit">/年</span></span>
+            <span class="plan-save">省 ¥128</span>
+          </span>
+        </label>
+      </form>
+
+      <button class="btn-primary btn-primary--lg">开始订阅</button>
+      <p class="subscribe-note">无强制续费 · 随时取消 · 全国顺丰</p>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="foot">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <span class="logo-mark logo-mark--lg">S</span>
+        <p class="foot-tag">慢火烘焙的慰藉。<br />2019 起，于杭州。</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>豆单</h4>
+          <a href="#beans">本季精选</a>
+          <a href="#beans">过往批次</a>
+          <a href="#subscribe">订阅</a>
+        </div>
+        <div class="foot-col">
+          <h4>工坊</h4>
+          <a href="#story">关于我们</a>
+          <a href="#craft">烘焙曲线</a>
+          <a href="#">参观预约</a>
+        </div>
+        <div class="foot-col">
+          <h4>联系</h4>
+          <a href="#">hello@solace.coffee</a>
+          <a href="#">杭州市 · 良渚</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Solace Coffee Roasters</span>
+      <span>慢，是一种主张。</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
